@@ -55,7 +55,7 @@ public class UserController {
 	@RequestMapping(value="/update2")
 	public String update2(
 			@RequestParam(value="n",required=true , defaultValue ="") String name,
-			@RequestParam(value="a",required=true , defaultValue ="0") int age ) { //@RequestParam 원래는 붙어있어야 하지만 이제는 안해도 된다 파라미터와 변수의 이름을 바꾸고 싶을 때는 꼭 써야한다. 
+			@RequestParam(value="a",required=true , defaultValue ="0") int age ) { 
 		/**
 		 * 위의 update
 		 */
